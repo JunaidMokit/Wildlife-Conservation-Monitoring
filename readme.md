@@ -13,21 +13,21 @@ JSON, XML, এবং GIS  সাপোর্ট করে<br>
 
 সারসংক্ষেপে, PostgreSQL এটি হল হাই লেবেল ডাটাবেইজ সিস্টেম যা ছোট বড় সব ধরনের প্রজেক্টে ব্যবহৃত হয়ে থেকে।
 
-# What is the purpose of a database schema in PostgreSQL?
+# 2.What is the purpose of a database schema in PostgreSQL?
 PostgreSQL-এ ডেটাবেস স্কিমার কাজ হলো টেবিল, ভিউ, ফাংশন ইত্যাদির একটি সংগঠিত কাঠামো তৈরি করা যাতে ডেটাগুলো সুন্দর এবং গুছানো ভাবে ও পরিচালনা করা যায়। এটি ডেটাবেসের বিভিন্ন অবজেক্ট আলাদা আলাদা গ্রুপে ভাগ করে সহজে অ্যাক্সেস ও ম্যানেজ করার সুবিধা দেয়।<br>
 
-# Explain the Primary Key and Foreign Key concepts in PostgreSQL<br>
+# 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL<br>
 
 Primary Key হলো একটি টেবিলের এমন একটি কলাম বা কলামের সমষ্টি যা প্রতিটি রেকর্ডকে ইউনিকভাবে চিহ্নিত করে এবং null হতে পারে না।<br>
 Foreign Key হলো এমন একটি কলাম যা অন্য টেবিলের প্রাইমারি কী এর সাথে সম্পর্ক তৈরি করে, যা ডেটার ইন্টিগ্রিটি ও রিলেশনশিপ বজায় রাখতে সাহায্য করে।<br>
 
-#What are the LIMIT and OFFSET clauses used for?<br>
+# 4.What are the LIMIT and OFFSET clauses used for?<br>
 LIMIT ব্যবহার করা হয় কুয়েরিতে কতগুলো রেকর্ড ফলাফল হিসেবে দেখতে চাই সেটা নির্ধারণ করার জন্য।
 OFFSET ব্যবহার করা হয় ফলাফল থেকে কতগুলো রেকর্ড বাদ দিয়ে পরবর্তী রেকর্ড দেখানোর জন্য।
 
 দুটি মিলে Pagination বা ভাগ করে ডেটা দেখানোর কাজে ব্যবহৃত হয়।<br>
 
-# How can you modify data using UPDATE statements?<br>
+# 5.How can you modify data using UPDATE statements?<br>
 স্টেটমেন্ট দিয়ে কোনো টেবিলের রেকর্ডের ডেটা পরিবর্তন করা হয়। এর সাধারণ সিনট্যাক্স:<br>
 UPDATE table_name<br>
 SET column1 = value1, column2 = value2, ...<br>
